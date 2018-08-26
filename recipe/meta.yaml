@@ -1,4 +1,4 @@
-{% set version = "3.7" %}
+{% set version = "3.7-3" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/plotrix_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/plotrix/plotrix_{{ version }}.tar.gz
-  sha256: 3e5f232546b05cbb92242ad595842389f94c57918ebd4bd60051b471930d8867
+  sha256: 8e9dc9e3130f20ebe11c1bbf753a3670660b382f3f0501ab293afaf58217e0a0
 
 build:
   number: 0
