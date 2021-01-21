@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=plotrix
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotrix-feedstock/blob/master/LICENSE.txt)
 
 Summary: Lots of plots, various labeling, axis and color scaling functions.
-
-
 
 Current build status
 ====================
