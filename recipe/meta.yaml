@@ -1,4 +1,4 @@
-{% set version = "3.8-3" %}
+{% set version = "3.8-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotrix/plotrix_{{ version }}.tar.gz
-  sha256: b961d3b59ba0850e4c198b57fcceb1735c1c10d5ddcda0ecd6c2c731f114bc05
+  sha256: e6a22d93ab61c67af21cbbe1fe333c06934cf576a44745bf2beee59bceaae8d6
 
 build:
   merge_build_host: true  # [win]
