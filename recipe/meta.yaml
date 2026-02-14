@@ -1,4 +1,4 @@
-{% set version = "3.8-13" %}
+{% set version = "3.8-14" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotrix/plotrix_{{ version }}.tar.gz
-  sha256: 1a8fbce953acee65670d0c8adbf518ea8983085ecc18ba9c60aa68b06effbc8d
+  sha256: 880bb3c2912962cbc3a5998510f4c450ea697a37b2935b5d8ae08495527d7272
 
 build:
   number: 0
